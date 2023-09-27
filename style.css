@@ -1,0 +1,80 @@
+.mainBox{
+    width:100%;
+    height:100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    position:absolute;
+    overflow-x: hidden;
+}
+
+.body{
+    margin:0px;
+}
+
+.boy{
+    height:250px;
+    margin-top: 385px;
+    position:absolute;
+}
+
+.box{
+    width:35px;
+    height:100px;
+    background-image: url("flame.gif");
+    position: absolute;
+    margin-top: 531px;
+    background-size: 50px 100%;
+}
+
+.score{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Arial";
+    margin-top: 40px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.endGame{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(red,white);
+    font-family: "Arial";
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+.btn{
+    width:400px;
+    height:70px;
+    background-color: green;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.btn2{
+    width:100px;
+    height:50px;
+    background-color: red;
+    margin-top: 0px;
+    margin-left: 900px;
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
